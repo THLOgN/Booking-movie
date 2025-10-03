@@ -5,8 +5,6 @@ export const inngest = new Inngest({
   id: "movie-ticket-booking",
 });
 
-export const functions = [
-];
 
 
 // Inngest Function to creat user data in database
@@ -51,3 +49,6 @@ const syncUserUpdation = inngest.createFunction(
   }
 )
 
+
+export const functions = [
+];

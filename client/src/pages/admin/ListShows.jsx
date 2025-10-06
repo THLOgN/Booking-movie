@@ -1,12 +1,11 @@
 import React, { useEffect, useState } from "react";
-import { dummyShowsData } from "../../assets/assets";
 import Loading from "../../components/Loading";
-import Title from "../../components/admin/Title";
+import Title from "../../components/admin/Title.jsx";
 import { dateFormat } from "../../lib/dateFormat";
 import { useAppContext } from "../../context/AppContext";
 
 const ListShows = () => {
-  const { axios, getToken, user, image_base_url } = useAppContext();
+  const { axios, getToken, user, } = useAppContext();
 
   const currency = import.meta.env.VITE_CURRENCY;
 

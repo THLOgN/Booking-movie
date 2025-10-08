@@ -1,0 +1,40 @@
+<!-- Movie4You - Minimal White Logo -->
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 700 200" role="img" aria-labelledby="title desc">
+  <title id="title">Movie4You Logo (White)</title>
+  <desc id="desc">Minimal text-based logo for Movie4You in white color, suitable for dark backgrounds.</desc>
+
+  <defs>
+    <filter id="soft-shadow" x="-20%" y="-20%" width="140%" height="140%">
+      <feGaussianBlur in="SourceAlpha" stdDeviation="2" result="blur"/>
+      <feOffset in="blur" dx="0" dy="2" result="offset"/>
+      <feMerge>
+        <feMergeNode in="offset"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+  </defs>
+
+  <g filter="url(#soft-shadow)" transform="translate(40,40)">
+    <text
+      x="0"
+      y="90"
+      font-family="Poppins, Inter, system-ui, sans-serif"
+      font-weight="700"
+      font-size="72"
+      letter-spacing="-1.5"
+      fill="#FFFFFF"
+    >
+      Movie4You
+    </text>
+
+    <rect
+      x="0"
+      y="106"
+      width="410"
+      height="3"
+      rx="2"
+      fill="#FFFFFF"
+      opacity="0.95"
+    />
+  </g>
+</svg>

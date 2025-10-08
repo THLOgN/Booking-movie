@@ -18,7 +18,7 @@ const Navbar = () => {
     px-6 md:px-16 lg:px-36 py-5"
     >
       <Link to="/" className="max-md:flex-1">
-        <img src={assets.logo} alt="logo" className="w-36 h-auto" />
+        <img src={assets.logo} alt="logo" className="w-40 h-auto " />
       </Link>
       <div
         className={`max-md:absolute max-md:top-0 max-md:left-0 max-md:font-medium
@@ -53,15 +53,7 @@ const Navbar = () => {
         >
           Movies
         </Link>
-        <Link
-          onClick={() => {
-            scrollTo(0, 0);
-            setIsOpen(false);
-          }}
-          to="/theaters"
-        >
-          Theaters
-        </Link>
+        
         <Link
           onClick={() => {
             scrollTo(0, 0);
@@ -70,6 +62,15 @@ const Navbar = () => {
           to="/releases"
         >
           Releases
+        </Link>
+        <Link
+          onClick={() => {
+            scrollTo(0, 0);
+            setIsOpen(false);
+          }}
+          to="/contact"
+        >
+          Contact
         </Link>
         {favoriteMovies.length >0 && <Link
           onClick={() => {

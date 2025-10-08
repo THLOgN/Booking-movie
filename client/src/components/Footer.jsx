@@ -9,7 +9,7 @@ const Footer = () => {
         <div class="max-w-96">
             <img className='w-36 h auto' src={assets.logo} alt='logo'/>
             <p class="mt-6 text-sm text-gray-500">
-                Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been.
+                The product is created for study and research purposes. If you have any questions, please contact thanglong479@gmail.com so we can improve it as soon as possible.
             </p>
             <div class="flex items-center gap-2 mt-3">
                 <a href="#">
@@ -32,7 +32,7 @@ const Footer = () => {
 
         <div class="w-1/2 flex flex-wrap md:flex-nowrap justify-between">
             <div>
-                <h2 class="font-semibold text-gray-900 mb-5">RESOURCES</h2>
+                <h2 class="font-semibold text-gray-300 mb-5">RESOURCES</h2>
                 <ul class="text-sm text-gray-500 space-y-2 list-none">
                     <li><a href="#">Documentation</a></li>
                     <li><a href="#">Tutorials</a></li>
@@ -41,7 +41,7 @@ const Footer = () => {
                 </ul>
             </div>
             <div>
-                <h2 class="font-semibold text-gray-900 mb-5">COMPANY</h2>
+                <h2 class="font-semibold text-gray-300 mb-5">COMPANY</h2>
                 <div class="text-sm text-gray-500 space-y-2 list-none">
                     <li><a href="#">About</a></li>
                     <li><a href="#">Careers</a></li>

@@ -1,5 +1,4 @@
 import React from 'react'
-
 import MovieCard from './../components/MovieCard';
 import BlurCircle from './../components/BlurCircle';
 import { useAppContext } from '../context/AppContext';
@@ -15,7 +14,7 @@ const Movies = () => {
   <BlurCircle bottom="50px" right="50px" />
 
   {/* Tiêu đề */}
-  <h1 className='text-lg font-medium my-4'>Now Showing</h1>
+  <h1 className='text-lg font-medium my-4 text-primary'>Now Showing</h1>
 
   {/* Danh sách phim */}
   <div className='flex flex-wrap max-sm:justify-center gap-8'>
@@ -26,7 +25,7 @@ const Movies = () => {
 </div>
   ) : (
     <div className='flex flex-col items-center justify-center h-screen'>
-        <h1 className='text-3xl font-bold text-center'>No movies</h1>
+        <h1 className='text-3xl font-bold text-center text-primary'>No movies</h1>
     </div>
   )
 }

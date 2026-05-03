@@ -146,10 +146,6 @@ deploy_frontend:
 👨‍💻 Tác giả
 Nguyễn Thăng Long
 Full Stack Developer
-📧 Email: your.email@example.com
-🌐 GitLab: https://gitlab.com/yourusername
-
-📝 Giấy phép
-Phát hành theo giấy phép MIT License – Tự do sử dụng, chỉnh sửa và mở rộng.
+📧 Email: thanglong479@gmail.com
 
 💡 “Movie4You — Đưa rạp phim đến ngay trong tay bạn.”
